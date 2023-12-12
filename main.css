@@ -18,6 +18,9 @@ h1 {
     margin: 0;
     padding: 0;
 }
+h1, #page-title {
+    font-weight: bold;
+}
 
 h2 {
     margin-bottom: 1.5em;
@@ -148,4 +151,16 @@ h3, .bk7 {
 
 .ad2 {
     margin-left: 50%;
+}
+
+.pagenum {
+    position: absolute;
+        right: 10px;
+        font-size: small;
+}
+
+p {
+    text-align: justify;
+    margin-top: .75em;
+    margin-bottom: .75em;
 }
